@@ -1,4 +1,3 @@
-
 import { Metadata } from 'next'
 
 import { Gutter } from '../../_components/Gutter'
