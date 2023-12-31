@@ -26,7 +26,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <style>
           {`
             :root {
-              ----font-jost: ${jost.style.fontFamily};
+              --font-jost: ${decodeURIComponent(jost.style.fontFamily)};
             }
           `}
         </style>
