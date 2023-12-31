@@ -6,11 +6,9 @@ module.exports = {
   trailingComma: 'all',
   arrowParens: 'avoid',
   singleQuote: true,
-
   tabWidth: 2,
-
   endOfLine: 'auto',
-  plugins: [require('prettier-plugin-import-sort')],
+  // plugins: [require('prettier-plugin-import-sort')],
   // importSortOrder: ['^\\u0000', '^\\u0020', '^\\u002F', '^[^.]', '^\\.', '^../[^/]', '^../'],
-  importSortSeparator: true,
+  // importSortSeparator: true,
 }
